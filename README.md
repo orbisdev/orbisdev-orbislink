@@ -539,7 +539,7 @@ Credits
 - ORBISDEV team :P less than 2 months to have a full open solution end to end and with CI ready
 - hitodama the one and only
 - flatz for fself signing, patching and gl stuff
-- maxtom for liborbispkg tool to create pkg
+- maxton for liborbispkg tool to create pkg
 - All ps3dev and ps2dev old comrades
 - To openorbis team thanks to make us finish this, we didn't think in do our own tools 2 months ago. Congrats for all your work paella and msx time :P !!!!
 

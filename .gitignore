@@ -1,0 +1,8 @@
+*.exe
+*.elf
+*.self
+*.o
+*.a
+*.d
+.DS_Store
+._*

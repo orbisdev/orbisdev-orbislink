@@ -32,7 +32,10 @@ int main()
 		if(ret==0)
 		{
 			orbisNfsFinish();
-			ret=sceSystemServiceLoadExec("/data/self/system/common/lib/homebrew.self", NULL);	
+			char argv[1][20] = {{0}};
+    		strcpy(argv[0], "hello");
+
+			ret=sceSystemServiceLoadExec("/data/self/system/common/lib/homebrew.self", argv);	
 			debugNetPrintf(3,"[ORBISLINK] %s after loadexec 0x%08X\n",__FUNCTION__,ret);
 		}
 		else

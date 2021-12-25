@@ -2,8 +2,8 @@
 <psproject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fmt="gp4" version="1000">
   <volume>
     <volume_type>pkg_ps4_app</volume_type>
-    <volume_ts>2018-09-17 19:00:00</volume_ts>
-    <package content_id="IV0003-BIGB00004_00-ORBISLINK0000000" passcode="00000000000000000000000000000000" storage_type="digital50" app_type="full" c_date="2018-09-25" />
+    <volume_ts>2021-12-25 00:00:00</volume_ts>
+    <package content_id="IV0003-BIGB00006_00-ORBISLINK0000000" passcode="00000000000000000000000000000000" storage_type="digital50" app_type="full" c_date="2021-12-25" />
     <chunk_info chunk_count="1" scenario_count="1">
       <chunks>
         <chunk id="0" layer_no="0" label="Chunk #0" />
@@ -18,6 +18,7 @@
     <file targ_path="sce_sys/pic1.png" orig_path="sce_sys/pic1.png" />
     <file targ_path="sce_sys/icon0.png" orig_path="sce_sys/icon0.png" />
     <file targ_path="sce_sys/pic0.png" orig_path="sce_sys/pic0.png" />
+    <file targ_path="media/orbislink_config.db" orig_path="media/orbislink_config.db" />
     <file targ_path="eboot.bin" orig_path="eboot.bin" />
     </files>
   <rootdir>

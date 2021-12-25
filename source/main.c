@@ -8,22 +8,25 @@
 # Review README & LICENSE files for further details.
 */
 #include <stdio.h>
+#include <user_mem.h>
 #include <stdlib.h>
-#include <ps4sdk.h>
-#include <stdarg.h>
 #include <string.h>
-#include <sys/socket.h>
-#include <ps4sdk.h>
-#include <debugnet.h>
-#include <orbisNfs.h>
+#include <orbisdev.h>
 #include <orbislink.h>
+#include <unistd.h>
+#include <stdarg.h>
 #include <sys/stat.h>
+#include <signal.h>
+#include <fcntl.h>
+#include <orbisNfs.h>
+#include <sqlite3.h>
 
-
+//change this to your pc and nfs url serve. Use ip no names.
+#define ORBISLINK_CONFIG_DB_SET "INSERT INTO orbislink_config VALUES('orbislink base','192.168.1.12',18194,3,'nfs://192.168.1.12/usr/local/orbisdev/git/ps4sh/bin/hostapp')"
 int main()
 {
 	
-	int ret=initOrbisLinkAppInternal();
+	int ret=initOrbisLinkAppInternal(ORBISLINK_CONFIG_DB_SET);
 	
 	if(ret>=0)
 	{
